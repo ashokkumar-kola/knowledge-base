@@ -1,1 +1,38 @@
-site_name: My Docs
+site_name: My Knowledge Base
+theme:
+  name: material
+
+nav:
+  # Home Section
+  - Home: index.md
+
+  # Cloud Section
+  - Cloud:
+
+      - AWS:
+          - EC2: cloud/aws/ec2.md
+          - S3: cloud/aws/s3.md
+          - VPC: cloud/aws/vpc.md
+
+      - Docker:
+          - Basics: cloud/docker/basics.md
+          - Compose: cloud/docker/compose.md
+
+  # Languages Section
+  - Languages:
+
+      - Python:
+          - Basics: languages/python/basics.md
+
+      - JavaScript:
+          - ES6: languages/javascript/es6.md
+
+  
+  # Frameworks Section
+  - Frameworks:
+
+      - Django: 
+        - Basics: frameworks/django/basics.md
+
+      - React: 
+        - Hooks: frameworks/react/hooks.md
