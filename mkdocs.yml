@@ -8,7 +8,6 @@ nav:
 
   # Cloud Section
   - Cloud:
-
       - AWS:
           - EC2: cloud/aws/ec2.md
           - S3: cloud/aws/s3.md
@@ -20,19 +19,43 @@ nav:
 
   # Languages Section
   - Languages:
-
       - Python:
           - Basics: languages/python/basics.md
 
       - JavaScript:
           - ES6: languages/javascript/es6.md
 
-  
   # Frameworks Section
   - Frameworks:
+      - Django:
+          - Basics: frameworks/django/basics.md
 
-      - Django: 
-        - Basics: frameworks/django/basics.md
+      - React:
+          - Hooks: frameworks/react/hooks.md
 
-      - React: 
-        - Hooks: frameworks/react/hooks.md
+      - FastApi:
+          - Introduction: frameworks/fastapi/introduction.md
+
+          - Pydantic Basics: frameworks/fastapi/pydantic-basics.md
+          - Schema Design Philosophy: frameworks/fastapi/schema-design-philosophy.md
+          - Base Schema: frameworks/fastapi/base-schema.md
+          - CRUD Schemas: frameworks/fastapi/crud-schemas.md
+          - Schema Types: frameworks/fastapi/schema-types.md
+
+          - Validations: frameworks/fastapi/validations.md
+          - Responses: frameworks/fastapi/responses.md
+
+            # - Pydantic Changes: pydantic-changes.md
+            # - API Calling: api-calling.md
+            # - Data Mapping: data-mapping.md
+            # - Service Layer: service-layer.md
+            # - DAO Layer: dao-layer.md
+            # - End-to-End Example: end-to-end.md
+
+  # Docs
+  - MkDocs:
+      - MkDocs: docs/MkDocs.md
+
+markdown_extensions:
+  - codehilite
+  - pymdownx.superfences
