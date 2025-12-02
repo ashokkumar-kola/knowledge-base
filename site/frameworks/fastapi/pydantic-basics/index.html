@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../../languages/javascript/es6/">
+        <link rel="prev" href="../introduction/">
       
       
-        <link rel="next" href="../../react/hooks/">
+        <link rel="next" href="../schema-design-philosophy/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Basics - My Knowledge Base</title>
+        <title>Pydantic Basics - My Knowledge Base</title>
       
     
     
@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#3-pydantic-basics-fastapi-context" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -95,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Basics
+              Pydantic Basics
             
           </span>
         </div>
@@ -788,20 +793,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
         
           
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
@@ -822,7 +825,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -837,17 +840,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../django/basics/" class="md-nav__link">
         
   
   
@@ -863,7 +859,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -964,18 +959,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
         
           
           <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
@@ -996,7 +993,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1014,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/introduction/" class="md-nav__link">
+      <a href="../introduction/" class="md-nav__link">
         
   
   
@@ -1039,10 +1036,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../fastapi/pydantic-basics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pydantic Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1058,6 +1082,293 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-pydantic-model-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Pydantic Model Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Pydantic Model Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-field-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Field() Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Field() Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-optional-vs-nullable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Optional vs Nullable
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Optional vs Nullable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nullable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nullable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Strict Mode
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Strict Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#without-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Without strict mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        With strict mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-custom-validators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Custom Validators
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Custom Validators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pydantic-v2-fastapi-expects-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pydantic v2 (FastAPI expects this)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#36-differences-between-pydantic-v2-and-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Differences Between Pydantic v2 and v3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.6 Differences Between Pydantic v2 and v3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-field_validator-replaces-validator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ @field_validator replaces @validator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-serialization-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Serialization Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-config-model-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Config Model Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-validation-pipeline-rewritten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Validation Pipeline Rewritten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-form-parsing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Form Parsing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1070,7 +1381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/schema-design-philosophy/" class="md-nav__link">
+      <a href="../schema-design-philosophy/" class="md-nav__link">
         
   
   
@@ -1098,7 +1409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/base-schema/" class="md-nav__link">
+      <a href="../base-schema/" class="md-nav__link">
         
   
   
@@ -1126,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/crud-schemas/" class="md-nav__link">
+      <a href="../crud-schemas/" class="md-nav__link">
         
   
   
@@ -1154,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/schema-types/" class="md-nav__link">
+      <a href="../schema-types/" class="md-nav__link">
         
   
   
@@ -1182,7 +1493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/validations/" class="md-nav__link">
+      <a href="../validations/" class="md-nav__link">
         
   
   
@@ -1210,7 +1521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../fastapi/responses/" class="md-nav__link">
+      <a href="../responses/" class="md-nav__link">
         
   
   
@@ -1345,6 +1656,283 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31-pydantic-model-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Pydantic Model Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Pydantic Model Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32-field-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Field() Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Field() Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33-optional-vs-nullable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Optional vs Nullable
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Optional vs Nullable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nullable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nullable
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#34-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Strict Mode
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Strict Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#without-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Without strict mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-strict-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        With strict mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35-custom-validators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Custom Validators
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 Custom Validators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pydantic-v2-fastapi-expects-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pydantic v2 (FastAPI expects this)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#36-differences-between-pydantic-v2-and-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Differences Between Pydantic v2 and v3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.6 Differences Between Pydantic v2 and v3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-field_validator-replaces-validator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ @field_validator replaces @validator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-serialization-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Serialization Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-config-model-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Config Model Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-validation-pipeline-rewritten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Validation Pipeline Rewritten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-form-parsing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Form Parsing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1361,9 +1949,159 @@
 
 
 
-  <h1>Basics</h1>
+<h1 id="3-pydantic-basics-fastapi-context">📘 <strong>3. Pydantic Basics (FastAPI Context)</strong></h1>
+<p>This section introduces the foundational concepts of Pydantic within a FastAPI application. Understanding these principles ensures clean schema definitions, predictable validation, and consistent serialization across your API.</p>
+<hr />
+<h2 id="31-pydantic-model-structure"><strong>3.1 Pydantic Model Structure</strong></h2>
+<p>A Pydantic model defines the shape, constraints, and validation logic for your data.</p>
+<h3 id="key-characteristics"><strong>Key Characteristics</strong></h3>
+<ul>
+<li>Each model is a Python class inheriting from <code>BaseModel</code>.</li>
+<li>Fields are declared using type hints.</li>
+<li>Validation runs automatically when the model is created.</li>
+<li>
+<p>Models can represent:</p>
+</li>
+<li>
+<p>Incoming request bodies</p>
+</li>
+<li>Outgoing responses</li>
+<li>Internal data conversions</li>
+</ul>
+<h3 id="example"><strong>Example</strong></h3>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">User</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="nb">id</span><span class="p">:</span> <span class="n">UUID</span>
+    <span class="n">email</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">is_active</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
+</code></pre></div>
+<hr />
+<h2 id="32-field-usage"><strong>3.2 <code>Field()</code> Usage</strong></h2>
+<p>The <code>Field()</code> function provides metadata and constraints for each attribute.</p>
+<h3 id="common-parameters"><strong>Common Parameters</strong></h3>
+<ul>
+<li><code>default</code>: default value</li>
+<li><code>default_factory</code>: function to generate a default</li>
+<li><code>gt</code>, <code>ge</code>, <code>lt</code>, <code>le</code>: numeric constraints</li>
+<li><code>min_length</code>, <code>max_length</code>: string constraints</li>
+<li><code>pattern</code>: regex validation</li>
+<li><code>description</code>: schema documentation for OpenAPI</li>
+<li><code>deprecated</code>: mark fields as deprecated</li>
+</ul>
+<h3 id="example_1"><strong>Example</strong></h3>
+<div class="highlight"><pre><span></span><code><span class="n">name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="o">...</span><span class="p">,</span> <span class="n">min_length</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;User name&quot;</span><span class="p">)</span>
+</code></pre></div>
+<hr />
+<h2 id="33-optional-vs-nullable"><strong>3.3 Optional vs Nullable</strong></h2>
+<p>In Pydantic (v2+):</p>
+<h3 id="optional"><strong>Optional</strong></h3>
+<p>Means <em>the field may be omitted</em>.</p>
+<div class="highlight"><pre><span></span><code><span class="n">name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</code></pre></div>
+<h3 id="nullable"><strong>Nullable</strong></h3>
+<p>Means <em>the field value may be <code>None</code></em>.</p>
+<p>Pydantic allows both semantics at the same time depending on config.
+But generally:</p>
+<ul>
+<li><code>Optional[str] = None</code> → may be missing OR may be <code>None</code></li>
+<li><code>str | None</code> is identical in v2+</li>
+</ul>
+<h3 id="example_2">Example:</h3>
+<div class="highlight"><pre><span></span><code><span class="n">phone</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># allowed: missing, None, or valid string</span>
+</code></pre></div>
+<p>Still, <strong>“Optional” does NOT mean nullable unless you set a default of <code>None</code></strong>.</p>
+<hr />
+<h2 id="34-strict-mode"><strong>3.4 Strict Mode</strong></h2>
+<p>Strict mode enforces that input types cannot be coerced.</p>
+<h3 id="without-strict-mode"><strong>Without strict mode</strong></h3>
+<div class="highlight"><pre><span></span><code><span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
+</code></pre></div>
+<p>Incoming <code>"25"</code> (string) will be accepted and converted to <code>25</code> (int).</p>
+<h3 id="with-strict-mode"><strong>With strict mode</strong></h3>
+<div class="highlight"><pre><span></span><code><span class="n">age</span><span class="p">:</span> <span class="n">StrictInt</span>
+</code></pre></div>
+<p>Incoming <code>"25"</code> will fail validation.</p>
+<p>Strict types include:</p>
+<ul>
+<li><code>StrictStr</code></li>
+<li><code>StrictInt</code></li>
+<li><code>StrictBool</code></li>
+<li><code>StrictFloat</code></li>
+</ul>
+<p>Strict mode is recommended for APIs requiring strong type guarantees.</p>
+<hr />
+<h2 id="35-custom-validators"><strong>3.5 Custom Validators</strong></h2>
+<p>Custom validation allows extra logic beyond type hints.</p>
+<h3 id="pydantic-v2-fastapi-expects-this"><strong>Pydantic v2 (FastAPI expects this)</strong></h3>
+<p>Use <code>@field_validator</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">pydantic</span><span class="w"> </span><span class="kn">import</span> <span class="n">field_validator</span>
 
+<span class="k">class</span><span class="w"> </span><span class="nc">User</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">email</span><span class="p">:</span> <span class="nb">str</span>
 
+    <span class="nd">@field_validator</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">)</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">validate_email</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s2">&quot;@&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid email format&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">value</span>
+</code></pre></div>
+<p>Validators can be:</p>
+<ul>
+<li><strong>per-field</strong></li>
+<li><strong>root-level</strong> (using <code>@model_validator(mode="after")</code>)</li>
+<li><strong>pre</strong> or <strong>post</strong> processing</li>
+</ul>
+<p>Reusable validators should be extracted into utilities.</p>
+<hr />
+<h2 id="36-differences-between-pydantic-v2-and-v3"><strong>3.6 Differences Between Pydantic v2 and v3</strong></h2>
+<p>Pydantic v3 introduces refinements but the fundamentals are similar.
+FastAPI currently targets v2+, so knowing the differences matters.</p>
+<h3 id="1-field_validator-replaces-validator"><strong>1️⃣ <code>@field_validator</code> replaces <code>@validator</code></strong></h3>
+<ul>
+<li>v1 used:</li>
+</ul>
+<p><div class="highlight"><pre><span></span><code><span class="nd">@validator</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">)</span>
+</code></pre></div>
+* v2 uses:</p>
+<p><div class="highlight"><pre><span></span><code><span class="nd">@field_validator</span><span class="p">(</span><span class="s2">&quot;email&quot;</span><span class="p">)</span>
+</code></pre></div>
+* v3 continues the v2 approach, dropping older APIs.</p>
+<h3 id="2-serialization-changes"><strong>2️⃣ Serialization Changes</strong></h3>
+<p><code>model.dict()</code> is deprecated.</p>
+<p>Use:</p>
+<div class="highlight"><pre><span></span><code><span class="n">model</span><span class="o">.</span><span class="n">model_dump</span><span class="p">()</span>
+</code></pre></div>
+<p>For JSON:</p>
+<div class="highlight"><pre><span></span><code><span class="n">model</span><span class="o">.</span><span class="n">model_dump_json</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="3-config-model-updates"><strong>3️⃣ Config Model Updates</strong></h3>
+<p>Old:</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Config</span><span class="p">:</span>
+    <span class="n">orm_mode</span> <span class="o">=</span> <span class="kc">True</span>
+</code></pre></div>
+<p>New:</p>
+<div class="highlight"><pre><span></span><code><span class="n">model_config</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;from_attributes&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;extra&quot;</span><span class="p">:</span> <span class="s2">&quot;forbid&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="4-validation-pipeline-rewritten"><strong>4️⃣ Validation Pipeline Rewritten</strong></h3>
+<p>Pydantic v2 introduced a fully rewritten validation engine (<code>pydantic-core</code>), giving:</p>
+<ul>
+<li>Better performance</li>
+<li>Stricter type handling</li>
+<li>Cleaner error messages</li>
+</ul>
+<h3 id="5-form-parsing"><strong>5️⃣ Form Parsing</strong></h3>
+<p>FastAPI form parsing still uses:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">fastapi</span><span class="w"> </span><span class="kn">import</span> <span class="n">Form</span>
+</code></pre></div>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Login</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">username</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Form</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+    <span class="n">password</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Form</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</code></pre></div>
+<p>Pydantic does <em>not</em> handle form parsing itself.
+FastAPI injects form values before the model validates them.</p>
 
 
 
